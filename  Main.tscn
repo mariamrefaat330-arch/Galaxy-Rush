@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bjwdigb45hof1"]
+
+[ext_resource type="Texture2D" uid="uid://bpai6cclgkqu7" path="res://Blue Gradient Flat Space Planet Advertising….jpg" id="1_a3rjv"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="BlueGradientFlatSpacePlanetAdvertising…" type="Sprite2D" parent="."]
+position = Vector2(277, 13.000977)
+scale = Vector2(60.937157, 57.882244)
+texture = ExtResource("1_a3rjv")

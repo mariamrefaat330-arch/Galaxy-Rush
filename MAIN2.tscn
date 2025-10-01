@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://ck758bs5n2nid"]
+
+[ext_resource type="Texture2D" uid="uid://cmkug8hmllpew" path="res://ChatGPT Image Sep 29, 2025, 05_33_21 AM.png" id="1_nbdq7"]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-3, 16.999998)
+scale = Vector2(0.3076172, 0.2789713)
+texture = ExtResource("1_nbdq7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(0.5, 0.5)

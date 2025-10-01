@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://bxyfjfns455yx"]
+
+[ext_resource type="Texture2D" uid="uid://bpai6cclgkqu7" path="res://Blue Gradient Flat Space Planet Advertising….jpg" id="1_3dbxb"]
+[ext_resource type="Texture2D" uid="uid://h2lr236fvu7b" path="res://ChatGPT Image Sep 29, 2025, 05_48_34 AM.png" id="2_3dbxb"]
+[ext_resource type="PackedScene" uid="uid://ck758bs5n2nid" path="res://MAIN2.tscn" id="2_n3ail"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="BlueGradientFlatSpacePlanetAdvertising…" type="Sprite2D" parent="."]
+position = Vector2(1813, 976.0001)
+scale = Vector2(172.24184, 52.896744)
+texture = ExtResource("1_3dbxb")
+
+[node name="Planet" type="Sprite2D" parent="."]
+position = Vector2(-47552.004, 2304)
+scale = Vector2(36.625, 32.5)
+texture = ExtResource("2_3dbxb")
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("2_n3ail")]
